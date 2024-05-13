@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 const DashboardTab = () => {
   const context = useContext(myContext);
   const { mode, product, edithandle, deleteProduct, order, user } = context;
+
   const add = () => {
     window.location.href = "/addproduct";
   };
